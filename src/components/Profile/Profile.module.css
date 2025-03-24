@@ -1,0 +1,64 @@
+.profileBox {
+    max-width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+    height: auto;
+    border-radius: 8px;
+    border: solid 3px;
+    text-align: center;
+    background-color: rgba(248, 248, 248, 0.76);
+}
+
+.profileImg {
+    background-color: rgb(228, 15, 15);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.tag {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 4px;
+}
+
+.location {
+    font-size: 16px;
+    color: grey;
+}
+
+.statsList {
+    padding: 0;
+    background-color: rgb(211, 141, 12);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.statsItem:first-child {
+    border-left: none;
+}
+
+.statsItem {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 2px;
+    height: 60px;
+    width: 100px;
+    border-right: none;
+    border-bottom: none;
+}
+
+
+
