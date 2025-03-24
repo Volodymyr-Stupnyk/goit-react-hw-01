@@ -1,0 +1,17 @@
+.FriendList {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.FriendListItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px;
+    border-radius: 4px;
+    background-color: rgb(235, 235, 235);
+    padding: 5px;
+    width: 60px;
+    height: auto;
+}
